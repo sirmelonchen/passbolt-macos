@@ -6,12 +6,15 @@
 //
 
 import SwiftUI
-
 @main
 struct PassboltMacOSApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
         }
+        WindowGroup {
+            RegisterUIView()
+        }
     }
 }
+
